@@ -1,0 +1,101 @@
+# Catálogo curado de fontes sobre o Jev (TypeSafe AI).
+#
+# kind: web | youtube | llms_txt
+# tier: oficial | tecnica | imprensa | divulgacao
+#   O tier pesa na busca (oficial 1,00; tecnica 0,97; imprensa 0,93; divulgacao 0,88).
+#
+# Depois de editar: `uv run jev collect` e `uv run jev index`.
+
+# ── Oficiais ────────────────────────────────────────────────────────────────
+
+[[source]]
+id = "typesafe-docs"
+title = "Documentação oficial da TypeSafe AI"
+url = "https://docs.typesafe.ai/llms.txt"
+kind = "llms_txt"
+tier = "oficial"
+notes = "Índice llms.txt: primitivas (Noul, Choice, Score), confiança, integração."
+
+[[source]]
+id = "typesafe-blog-lancamento"
+title = "Introducing System One Models & Jev (blog da TypeSafe)"
+url = "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+kind = "web"
+tier = "oficial"
+
+[[source]]
+id = "yt-why-we-made-jev"
+title = "Why We Made Jev — Diogo Almeida, TypeSafe Co-founder & CEO"
+url = "https://www.youtube.com/watch?v=cFx9Z3ZXca0"
+kind = "youtube"
+tier = "oficial"
+
+# ── Técnicas ────────────────────────────────────────────────────────────────
+
+[[source]]
+id = "latent-space-jev"
+title = "Jev: System One models for Prod, not God — Latent Space"
+url = "https://www.latent.space/p/jev"
+kind = "web"
+tier = "tecnica"
+notes = "Podcast com Diogo Almeida (CEO)."
+
+[[source]]
+id = "pydantic-ai-typesafe"
+title = "TypeSafe (Jev) | Pydantic AI Docs"
+url = "https://pydantic.dev/docs/ai/models/typesafe/"
+kind = "web"
+tier = "tecnica"
+
+[[source]]
+id = "litellm-typesafe"
+title = "TypeSafe AI (Jev) | LiteLLM"
+url = "https://docs.litellm.ai/docs/pass_through/typesafe"
+kind = "web"
+tier = "tecnica"
+
+[[source]]
+id = "cloudflare-jev"
+title = "Jev (typesafe) · Cloudflare AI docs"
+url = "https://developers.cloudflare.com/ai/models/typesafe/jev/"
+kind = "web"
+tier = "tecnica"
+
+[[source]]
+id = "langchain-harness-jev"
+title = "What Is Jev? A Guide to TypeSafe AI's System One Model (LangChain)"
+url = "https://www.langchain.com/blog/building-a-harness-with-jev"
+kind = "web"
+tier = "tecnica"
+
+# ── Imprensa ────────────────────────────────────────────────────────────────
+
+[[source]]
+id = "techcrunch-jev"
+title = "A new kind of AI model from a ChatGPT inventor is thrilling developers (TechCrunch)"
+url = "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/"
+kind = "web"
+tier = "imprensa"
+
+[[source]]
+id = "tomshardware-jev"
+title = "TypeSafe AI's Jev offers an alternative to LLMs (Tom's Hardware)"
+url = "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making"
+kind = "web"
+tier = "imprensa"
+
+# ── Divulgação (peso menor) ─────────────────────────────────────────────────
+
+[[source]]
+id = "mindstudio-jev-explained"
+title = "Jev Explained: Typesafe AI's Non-Autoregressive System-1 Model (MindStudio)"
+url = "https://www.mindstudio.ai/blog/jev-system-one-model-launch"
+kind = "web"
+tier = "divulgacao"
+
+[[source]]
+id = "lilting-jev-vs-llm"
+title = "TypeSafe Jev: Decision Model vs Auto-Regressive LLMs and MDLM (lilting)"
+url = "https://lilting.ch/en/articles/typesafe-ai-jev-system-one-model"
+kind = "web"
+tier = "divulgacao"

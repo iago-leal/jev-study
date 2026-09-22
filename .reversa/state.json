@@ -4,7 +4,7 @@
   "user_name": "iago",
   "chat_language": "pt-br",
   "doc_language": "Português",
-  "answer_mode": "chat",
+  "answer_mode": "file",
   "doc_level": "completo",
   "output_folder": "_reversa_sdd",
   "forward_folder": "_reversa_forward",
@@ -265,5 +265,36 @@
     ".reversa/plan.md",
     ".reversa/version",
     ".reversa/_config/manifest.yaml"
-  ]
+  ],
+  "newproject_progress": {
+    "mode": "expresso",
+    "stage": "done",
+    "started_at": "2026-09-22T19:49:15-03:00",
+    "last_checkpoint_at": "2026-09-22T20:10:14-03:00",
+    "completed_stages": [
+      "ideator",
+      "researcher",
+      "drafter",
+      "spec-sdd",
+      "forward-requirements",
+      "forward-plan",
+      "forward-todo",
+      "forward-coding"
+    ],
+    "brief": "Quero construir uma pequena aplicação que consiste em buscar, pode ser no archive, alguns vídeos no YouTube e documentações do próprio Jev AI, para eu poder estudar sobre essa nova modalidade de intel",
+    "interview": {
+      "tema": "Jev (TypeSafe AI), modelo System One",
+      "problema": "material novo e disperso, sem lugar único para consultar",
+      "valor": "perguntas em linguagem natural com respostas citando a fonte, sem nova busca na web",
+      "alternativas": "NotebookLM ou busca manual",
+      "publico": "só o usuário, uso local",
+      "metrica": "80% das perguntas respondidas com citação correta",
+      "premissas_perigosas": "pouco material confiável no lançamento; vídeos sem legenda",
+      "personas": 1,
+      "stack": "Python, embeddings locais, SQLite/Chroma; geração da resposta pela assinatura do Claude Code CLI (claude -p), sem chave de API",
+      "prazo_orcamento": "nenhum",
+      "fontes": "oficiais e técnicas (TypeSafe, YouTube com transcrição, arXiv, imprensa técnica); marketing com peso menor",
+      "nao_objetivos": "interface web elaborada, multiusuário, reprodução de vídeo; CLI basta"
+    }
+  }
 }

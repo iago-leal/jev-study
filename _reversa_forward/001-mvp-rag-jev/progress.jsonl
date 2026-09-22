@@ -1,0 +1,24 @@
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T001", "status": "done", "files": ["pyproject.toml", "src/jev_study/__init__.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T002", "status": "done", "files": ["data/.gitignore"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T003", "status": "done", "files": ["sources.toml"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T004", "status": "done", "files": ["tests/test_collect_units.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T005", "status": "done", "files": ["tests/test_collect.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T006", "status": "done", "files": ["tests/test_index.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T007", "status": "done", "files": ["tests/test_ask.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T008", "status": "done", "files": ["src/jev_study/config.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T009", "status": "done", "files": ["src/jev_study/catalog.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T010", "status": "done", "files": ["src/jev_study/htmltext.py", "src/jev_study/vtt.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T011", "status": "done", "files": ["src/jev_study/rawdoc.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T012", "status": "done", "files": ["src/jev_study/fetch.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T013", "status": "done", "files": ["src/jev_study/collect.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T014", "status": "done", "files": ["src/jev_study/chunking.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T015", "status": "done", "files": ["src/jev_study/embed.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T016", "status": "done", "files": ["src/jev_study/index.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T017", "status": "done", "files": ["src/jev_study/ask.py"]}
+{"ts": "2026-09-22T23:05:02+00:00", "action": "T018", "status": "done", "files": ["src/jev_study/cli.py", "src/jev_study/evaluate.py"]}
+{"ts": "2026-09-22T23:09:53+00:00", "action": "T013", "status": "corrected", "files": ["src/jev_study/collect.py"], "note": "yt-dlp: um idioma por chamada ap\u00f3s HTTP 429 na coleta real"}
+{"ts": "2026-09-22T23:09:53+00:00", "action": "T019", "status": "done", "files": ["src/jev_study/config.py", "tests/test_ask.py", "_reversa_sdd/sdd/ask-cli.md"], "note": "collect 12/12, index 91 docs/1427 trechos, ask ok; limiar calibrado 0.50->0.58"}
+{"ts": "2026-09-22T23:09:53+00:00", "action": "T020", "status": "done", "files": ["README.md", "eval/questions.txt"]}
+{"ts": "2026-09-22T23:58:09+00:00", "action": "T015", "status": "corrected", "files": ["src/jev_study/embed.py", "src/jev_study/config.py"], "note": "bge-m3 multil\u00edngue; prefixos por modelo"}
+{"ts": "2026-09-22T23:58:09+00:00", "action": "T014", "status": "corrected", "files": ["src/jev_study/chunking.py", "tests/test_index.py"], "note": "descarte de base64, data URIs e payload de URL"}
+{"ts": "2026-09-22T23:58:09+00:00", "action": "T019", "status": "corrected", "files": ["src/jev_study/config.py", "tests/test_ask.py"], "note": "limiar 0.45; eval 10/10 com cita\u00e7\u00e3o"}

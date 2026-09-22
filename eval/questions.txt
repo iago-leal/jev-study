@@ -1,0 +1,12 @@
+# Perguntas de avaliação (uma por linha; linhas com # são ignoradas).
+# Rode `uv run jev eval` e marque, no relatório gerado, as respostas cujas citações sustentam o que dizem.
+O que é um modelo System One e em que ele difere de um LLM?
+Quais são os tipos de pergunta (primitivas) que o Jev aceita e quando usar cada um?
+Como o Jev expressa confiança, e como devo usar esse valor na arquitetura de um sistema?
+O que é o campo state numa requisição ao Jev?
+O que é RLCD e como ele difere do RLHF?
+Quanto o Jev é mais rápido e mais barato que um LLM, segundo a TypeSafe, e quem verificou esses números?
+Quais são as limitações conhecidas do Jev?
+Por que Diogo Almeida diz que não conseguiria construir o Jev dentro da OpenAI?
+Como integrar o Jev com o Pydantic AI?
+Em que casos de uso o Jev não é indicado?
